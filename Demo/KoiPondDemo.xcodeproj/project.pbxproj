@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A945E9B4C6E384A6168984E /* KoiPond in Frameworks */ = {isa = PBXBuildFile; productRef = A616B8E0041CF52AB9FF402D /* KoiPond */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7455BA9E58F189923CA2694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93607D975E8B405B3A7121B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AAE6CC3F31A972FB7DBFE3;
+			remoteInfo = KoiPondDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9142E459C92DE7D252723147 /* KoiPondDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoiPondDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C309928BAFEC5E11311C63 /* KoiPondDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoiPondDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		981D154E8BA09C586E74CEA2 /* KoiPondDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KoiPondDemo;
+			sourceTree = "<group>";
+		};
+		C4B39841985C028B28E732BD /* KoiPondDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KoiPondDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5D230159BFC20C1635596E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A945E9B4C6E384A6168984E /* KoiPond in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BA10F1CF0AA289EA760A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0796E02F9EB81F6A8F5667A = {
+			isa = PBXGroup;
+			children = (
+				981D154E8BA09C586E74CEA2 /* KoiPondDemo */,
+				C4B39841985C028B28E732BD /* KoiPondDemoUITests */,
+				2A374F9D1699750B63E2852D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A374F9D1699750B63E2852D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9142E459C92DE7D252723147 /* KoiPondDemo.app */,
+				82C309928BAFEC5E11311C63 /* KoiPondDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AAE6CC3F31A972FB7DBFE3 /* KoiPondDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52770DCC1F2893C213C62A79 /* Build configuration list for PBXNativeTarget "KoiPondDemo" */;
+			buildPhases = (
+				C8078498B6FFEF1FC77407F8 /* Sources */,
+				3C5D230159BFC20C1635596E /* Frameworks */,
+				9392B1FFD6BEC03AFA6889B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				981D154E8BA09C586E74CEA2 /* KoiPondDemo */,
+			);
+			name = KoiPondDemo;
+			packageProductDependencies = (
+				A616B8E0041CF52AB9FF402D /* KoiPond */,
+			);
+			productName = KoiPondDemo;
+			productReference = 9142E459C92DE7D252723147 /* KoiPondDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC722D1E25E71E69625D550A /* KoiPondDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19EBA0F495167976EAF68D /* Build configuration list for PBXNativeTarget "KoiPondDemoUITests" */;
+			buildPhases = (
+				434C1972136668D1F4EDC0B4 /* Sources */,
+				63BA10F1CF0AA289EA760A71 /* Frameworks */,
+				140BDC82584F7BD1CD18CB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EFBA625163824A1B73334C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4B39841985C028B28E732BD /* KoiPondDemoUITests */,
+			);
+			name = KoiPondDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = KoiPondDemoUITests;
+			productReference = 82C309928BAFEC5E11311C63 /* KoiPondDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93607D975E8B405B3A7121B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					D7AAE6CC3F31A972FB7DBFE3 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AC722D1E25E71E69625D550A = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = D7AAE6CC3F31A972FB7DBFE3;
+					};
+				};
+			};
+			buildConfigurationList = 763F9ED6CE0DD8176104BCF4 /* Build configuration list for PBXProject "KoiPondDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0796E02F9EB81F6A8F5667A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				60255C5531DE8588C87C19C7 /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2A374F9D1699750B63E2852D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AAE6CC3F31A972FB7DBFE3 /* KoiPondDemo */,
+				AC722D1E25E71E69625D550A /* KoiPondDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9392B1FFD6BEC03AFA6889B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140BDC82584F7BD1CD18CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8078498B6FFEF1FC77407F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C1972136668D1F4EDC0B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EFBA625163824A1B73334C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AAE6CC3F31A972FB7DBFE3 /* KoiPondDemo */;
+			targetProxy = E7455BA9E58F189923CA2694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA84B5DC4EC4199A6061E545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8DE3B861E59B1EB49A270A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6836DC43E313EF5F26E903E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Koi Pond";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplo.KoiPondDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DB3C4AF0ADEA408D38168F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Koi Pond";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplo.KoiPondDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		43EE5CB505DC157D61FF529F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplo.KoiPondDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = KoiPondDemo;
+			};
+			name = Debug;
+		};
+		1D1B804666B625A7816411C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haplo.KoiPondDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = KoiPondDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		763F9ED6CE0DD8176104BCF4 /* Build configuration list for PBXProject "KoiPondDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA84B5DC4EC4199A6061E545 /* Debug */,
+				E8DE3B861E59B1EB49A270A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52770DCC1F2893C213C62A79 /* Build configuration list for PBXNativeTarget "KoiPondDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6836DC43E313EF5F26E903E0 /* Debug */,
+				DB3C4AF0ADEA408D38168F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19EBA0F495167976EAF68D /* Build configuration list for PBXNativeTarget "KoiPondDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EE5CB505DC157D61FF529F /* Debug */,
+				1D1B804666B625A7816411C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		60255C5531DE8588C87C19C7 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A616B8E0041CF52AB9FF402D /* KoiPond */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KoiPond;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 93607D975E8B405B3A7121B6 /* Project object */;
+}
