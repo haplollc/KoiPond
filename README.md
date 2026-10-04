@@ -72,13 +72,20 @@ struct PondScreen: View {
 
 ## Things to do in it
 
-| | |
-|:---:|---|
-| <img src="assets/feed.webp" width="300" alt="A tap drops food and the koi swim in to eat it"> | **Tap to feed.** Pellets scatter where you tap and land on the water, and the koi in sight come for them, slowing to turn onto a pellet beside them rather than circling it. Each gulp rings the surface. |
-| <img src="assets/stir.webp" width="300" alt="A finger sweeps through the feeding koi and they scatter"> | **Drag to stir.** Rings spread from your finger as it moves, and the koi bolt away from it, then drift apart and settle. |
-| <img src="assets/pad.webp" width="300" alt="A lily pad is pushed across the pond, nudging the others aside"> | **Push a lily pad.** Drag one across the pond. It shoulders the others out of its way, and drifts on with the speed you let go at. |
-| <img src="assets/fling.webp" width="300" alt="The rubber duck set down and the striped float flung off the far wall, trailing a wake"> | **Grab and fling.** In the pool, carry the rubber duck wherever you like, or throw the float off the far wall. Both bob on every ring that reaches them. |
-| <img src="assets/switch.webp" width="300" alt="The pool turning into the koi pond"> | **Pond ⇄ pool.** Change `mode` and the water eases from one to the other in about a second: the koi and lily pads fade away as the tiles come up, and the duck and float drop in with a splash. Change it back and the pond returns. |
+| Tap to feed | Drag to stir | Push a lily pad |
+|:---:|:---:|:---:|
+| <img src="assets/feed.webp" width="260" alt="A tap drops food and the koi swim in to eat it"> | <img src="assets/stir.webp" width="260" alt="A finger sweeps through the feeding koi and they scatter"> | <img src="assets/pad.webp" width="260" alt="A lily pad is pushed across the pond, nudging the others aside"> |
+
+- **Tap to feed.** Pellets land where you tap, and the koi come for them, slowing to turn onto one beside them rather than circling it. Each gulp rings the surface.
+- **Drag to stir.** Rings spread from your finger as it moves. The koi bolt away from it, then drift apart and settle.
+- **Push a lily pad.** Drag one across the pond. It shoulders the others out of its way, and drifts on at the speed you let go.
+
+| Grab and fling | Pond ⇄ pool |
+|:---:|:---:|
+| <img src="assets/fling.webp" width="300" alt="The rubber duck set down and the striped float flung off the far wall, trailing a wake"> | <img src="assets/switch.webp" width="300" alt="The pool turning into the koi pond"> |
+
+- **Grab and fling.** In the pool, carry the rubber duck anywhere, or throw the float off the far wall. Both bob on every ring that reaches them.
+- **Pond ⇄ pool.** Change `mode` and the water eases across in about a second: the koi and lily pads fade as the tiles come up and the duck and float drop in with a splash. Change it back and the pond returns.
 
 ## Your own floor
 
