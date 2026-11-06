@@ -182,6 +182,7 @@ The media in this README are recorded from the demo with the scripts in `Scripts
 KoiPond is available under the [MIT license](LICENSE).
 
 Made by [Haplo LLC](https://haploapp.com).
+
 ---
 
 ## More from Haplo
